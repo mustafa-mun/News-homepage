@@ -1,6 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
+
+  <style>
+    .fade-in {
+      animation: fade-in 1.5s;
+    }
+  
+    @keyframes fade-in {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link href="/dist/output.css" rel="stylesheet">
@@ -8,7 +24,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <title>Frontend Mentor | News homepage</title>
 </head>
-<body class="bg-[#fffdfa]">
+<body class="bg-[#fffdfa] fade-in">
 
 
   <div id="right-bar" class="hidden">
